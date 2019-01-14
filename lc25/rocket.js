@@ -42,45 +42,45 @@ OUTPUT:
 */
 
 function printBranch(branches) {
-  var result = "| ";
+  var result = "";
   
   for(var i = 0; i < 12; i++) {
     switch(i) {
       case 0:
-        result += "jan | ";
+        result += "| jan | ";
         break;
       case 1:
-        result += "feb | ";
+        result += "| feb | ";
         break;
       case 2:
-        result += "march | ";
+        result += "| march | ";
         break;
       case 3:
-        result += "april | ";
+        result += "| april | ";
         break;
       case 4:
-        result += "mei | ";
+        result += "| mei | ";
         break;
       case 5:
-        result += "jun | ";
+        result += "| jun | ";
         break;
       case 6:
-        result += "jul | ";
+        result += "| jul | ";
         break;
       case 7:
-        result += "august | ";
+        result += "| august | ";
         break;
       case 8:
-        result += "sept | ";
+        result += "| sept | ";
         break;
       case 9:
-        result += "oct | ";
+        result += "| oct | ";
         break;
       case 10:
-        result += "nov | ";
+        result += "| nov | ";
         break;
       case 11:
-        result += "dec | ";
+        result += "| dec | ";
         break;
     }
     for(var j = 0; j < branches.length; j++) {
